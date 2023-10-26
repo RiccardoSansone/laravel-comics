@@ -11,49 +11,49 @@
                 <div class="container">
                     <!-- img -->
                      <a class="navbar-brand" href="#">
-                        <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="" width="30" height="24">
+                        <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="" width="50" height="50">
                      </a>
                     <div class="collapse navbar-collapse" id="navbarNav">
                     <!-- list -->
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">CHARACTERS</a>
+                                <a class="nav-link fw-bold" href="#">CHARACTERS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{route('home')}}">COMICS</a>
+                                <a class="nav-link fw-bold" href="{{route('home')}}">COMICS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">MOVIES</a>
+                                <a class="nav-link fw-bold" href="#">MOVIES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">TV</a>
+                                <a class="nav-link fw-bold" href="#">TV</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">TV</a>
+                                <a class="nav-link fw-bold" href="#">TV</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">GAMES</a>
+                                <a class="nav-link fw-bold" href="#">GAMES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">COLLETIBLES</a>
+                                <a class="nav-link fw-bold" href="#">COLLETIBLES</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">VIDEOS</a>
+                                <a class="nav-link fw-bold" href="#">VIDEOS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">FANS</a>
+                                <a class="nav-link fw-bold" href="#">FANS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">NEWS</a>
+                                <a class="nav-link fw-bold" href="#">NEWS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">SHOP</a>
+                                <a class="nav-link fw-bold" href="#">SHOP</a>
                             </li>
                         </ul>
                         <!-- search -->
                         <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+                            <input style="border-bottom: 1px solid blue" class="form-control me-2 border-top-0 border-left-0 border-right-0 input_search" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success border-0" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
