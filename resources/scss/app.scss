@@ -8,7 +8,7 @@
         font-size: x-small;
     }
 }
-footer{
+.footer_top{
     width: 100%;
     background-image: url(../img/footer-bg.jpg);
     background-repeat: no-repeat;
@@ -22,4 +22,25 @@ footer{
     top: 0;
     bottom: 0;
     object-fit: cover;
+}
+.footer_bottom{
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    min-height: 70px;
+    padding-top: 20px;
+}
+.dc_jumbotron{
+    width: 100%;
+    min-height: 250px;
+    background-image: url(../img/jumbotron.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.card{
+    margin-top: 1rem;
+    img{
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
 }
